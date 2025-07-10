@@ -20,7 +20,7 @@ export default function App() {
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
 
-  const backend = 'https://queue-management-beta.vercel.app/';
+  const backend = 'https://queue-management-backend-jltg.onrender.com';
 
   // Save theme preference
   useEffect(() => {
