@@ -20,7 +20,7 @@ export default function App() {
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
 
-  const backend = 'http://localhost:5000';
+  const backend = 'https://queue-management-beta.vercel.app/';
 
   // Save theme preference
   useEffect(() => {
